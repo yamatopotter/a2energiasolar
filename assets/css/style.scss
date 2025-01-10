@@ -8,6 +8,27 @@ section {
   padding: 4rem 0;
 }
 
+.btn-cta {
+  padding: 15px 20px;
+  background-color: #fff;
+  color: #ed8c34;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: block;
+  width: fit-content;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #223d70, #00183e);
+  .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
 #intro {
   height: 80dvh;
   background: linear-gradient(
@@ -41,5 +62,50 @@ section {
     color: rgba(0, 24, 63, 1);
     font-weight: 900;
     font-size: 6rem;
+  }
+
+  p {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+#about-energy {
+  h2 {
+    color: #203a6d;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    color: #707070;
+  }
+
+  img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+#working-area {
+  background-color: #ed8c34;
+
+  h1 {
+    color: #00183E;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  p {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
   }
 }

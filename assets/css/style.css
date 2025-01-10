@@ -7,6 +7,28 @@ section {
   padding: 4rem 0;
 }
 
+.btn-cta {
+  padding: 15px 20px;
+  background-color: #fff;
+  color: #ed8c34;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #223d70, #00183e);
+}
+.navbar .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+
 #intro {
   height: 80dvh;
   background: linear-gradient(90deg, rgba(33, 60, 111, 0.5), rgba(195, 100, 16, 0.5)), url("../img/intro-bg.jpg") no-repeat center center/cover;
@@ -34,4 +56,41 @@ section {
   color: rgb(0, 24, 63);
   font-weight: 900;
   font-size: 6rem;
+}
+#about p {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#about img {
+  width: 100%;
+}
+
+#about-energy h2 {
+  color: #203a6d;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#about-energy p {
+  color: #707070;
+}
+#about-energy img {
+  height: 100px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#working-area {
+  background-color: #ed8c34;
+}
+#working-area h1 {
+  color: #00183E;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+#working-area p {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
