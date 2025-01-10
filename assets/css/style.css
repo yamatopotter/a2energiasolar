@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+#intro {
+  height: 80dvh;
+  background: linear-gradient(90deg, rgba(33, 60, 111, 0.5), rgba(195, 100, 16, 0.5)), url("../img/intro-bg.jpg") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+#intro h1 {
+  font-size: 7.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+#intro .icon {
+  font-size: 4rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  right: 50%;
+}
+
+#about {
+  background: linear-gradient(rgb(239, 144, 65), rgb(191, 95, 10));
+}
+#about h1 {
+  color: rgb(0, 24, 63);
+  font-weight: 900;
+  font-size: 6rem;
+}/*# sourceMappingURL=style.css.map */
