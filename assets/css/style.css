@@ -85,7 +85,7 @@ section {
   background-color: #ed8c34;
 }
 #working-area h1 {
-  color: #00183E;
+  color: #00183e;
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -93,4 +93,28 @@ section {
   color: #fff;
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+#step-adquire-energy {
+  background: linear-gradient(90deg, #223d70, #00183e);
+  color: #fff;
+}
+#step-adquire-energy h1 {
+  font-size: 4rem;
+}
+#step-adquire-energy p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#projects h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  max-width: 50%;
+  display: block;
+  margin: 0 auto 40px;
+}
+#projects img {
+  width: 200px;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
