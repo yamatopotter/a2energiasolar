@@ -52,6 +52,18 @@ h1 {
   left: 50%;
   right: 50%;
 }
+@media screen and (max-width: 600px) {
+  #intro h1 {
+    font-size: 4rem;
+  }
+  #intro .icon {
+    font-size: 2rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    right: 50%;
+  }
+}
 
 #about {
   background: linear-gradient(rgb(239, 144, 65), rgb(191, 95, 10));
@@ -68,6 +80,17 @@ h1 {
 }
 #about img {
   width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+@media screen and (max-width: 600px) {
+  #about h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #about p {
+    font-size: 1.25rem;
+  }
 }
 
 #about-energy h2 {
@@ -84,6 +107,16 @@ h1 {
   display: block;
   margin: 0 auto;
 }
+@media screen and (max-width: 600px) {
+  #about-energy h2 {
+    color: #203a6d;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  #about-energy p {
+    font-size: 1.25rem;
+  }
+}
 
 #working-area {
   background-color: #ed8c34;
@@ -98,6 +131,17 @@ h1 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+@media screen and (max-width: 600px) {
+  #working-area h1 {
+    font-size: 3rem;
+  }
+  #working-area p {
+    font-size: 1.25rem;
+  }
+  #working-area img {
+    width: 100%;
+  }
+}
 
 #step-adquire-energy {
   background: linear-gradient(90deg, #223d70, #00183e);
@@ -109,6 +153,18 @@ h1 {
 #step-adquire-energy p {
   font-size: 1.5rem;
   font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  #step-adquire-energy h1 {
+    font-size: 3rem;
+  }
+  #step-adquire-energy p {
+    font-size: 1.25rem;
+  }
+  #step-adquire-energy img {
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 
 #know-us {
@@ -127,10 +183,42 @@ h1 {
   width: 200px;
   height: 200px;
 }
+@media screen and (max-width: 600px) {
+  #projects h1 {
+    font-weight: bold;
+    font-size: 3rem;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 20px;
+  }
+}
 
 #statements h1 {
   font-size: 4rem;
   text-align: center;
+}
+#statements .slick-list {
+  padding-top: 90px;
+}
+#statements .card {
+  margin: 0 20px;
+  padding: 20px;
+  position: relative;
+}
+#statements .card .avatar {
+  position: absolute;
+  top: -80px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+#statements .card h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+  #statements h1 {
+    font-size: 3rem;
+  }
 }
 
 #get-to-know-more {
@@ -141,6 +229,11 @@ h1 {
   font-size: 4rem;
   text-align: center;
   margin-bottom: 40px;
+}
+@media screen and (max-width: 600px) {
+  #get-to-know-more h1 {
+    font-size: 3rem;
+  }
 }
 
 #common-doubts .accordion-item {

@@ -58,6 +58,20 @@ h1 {
     left: 50%;
     right: 50%;
   }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 4rem;
+    }
+
+    .icon {
+      font-size: 2rem;
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      right: 50%;
+    }
+  }
 }
 
 #about {
@@ -76,6 +90,18 @@ h1 {
 
   img {
     width: 100%;
+    height: fit-content;
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
   }
 }
 
@@ -96,6 +122,18 @@ h1 {
     display: block;
     margin: 0 auto;
   }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+      color: #203a6d;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.25rem;
+    }
+  }
 }
 
 #working-area {
@@ -112,6 +150,19 @@ h1 {
     font-size: 1.5rem;
     font-weight: bold;
   }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 #step-adquire-energy {
@@ -125,6 +176,20 @@ h1 {
   p {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.25rem;
+    }
+
+    img {
+      margin-top: 20px;
+      width: 100%;
+    }
   }
 }
 
@@ -146,12 +211,50 @@ h1 {
     width: 200px;
     height: 200px;
   }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-weight: bold;
+      font-size: 3rem;
+      display: block;
+      max-width: 100%;
+      margin: 0 auto 20px;
+    }
+  }
 }
 
 #statements {
   h1 {
     font-size: 4rem;
     text-align: center;
+  }
+
+  .slick-list {
+    padding-top: 90px;
+  }
+
+  .card {
+    margin: 0 20px;
+    padding: 20px;
+    position: relative;
+
+    .avatar {
+      position: absolute;
+      top: -80px;
+      border-radius: 50%;
+      border: 4px solid #fff;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
   }
 }
 
@@ -162,6 +265,12 @@ h1 {
     font-size: 4rem;
     text-align: center;
     margin-bottom: 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem;
+    }
   }
 }
 
