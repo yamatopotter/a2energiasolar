@@ -59,6 +59,22 @@ h1 {
   font-weight: bold;
 }
 
+@media screen and (min-width: 1400px) {
+  #orange-square-1 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 20px 0 0 20px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #orange-square-2 {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0 20px 20px 0;
+  }
+}
+
 #intro {
   height: 80dvh;
   background: linear-gradient(90deg, rgba(33, 60, 111, 0.5), rgba(195, 100, 16, 0.5)), url("../img/intro-bg.jpg") no-repeat center center/cover;

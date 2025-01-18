@@ -61,6 +61,20 @@ h1 {
   }
 }
 
+#orange-square-1 {
+  @media screen and (min-width: 1400px) {
+    object-fit: cover;
+    border-radius: 20px 0 0 20px;
+  }
+}
+
+#orange-square-2 {
+  @media screen and (min-width: 1400px) {
+    object-fit: cover;
+    border-radius: 0 20px 20px 0;
+  }
+}
+
 #intro {
   height: 80dvh;
   background: linear-gradient(
