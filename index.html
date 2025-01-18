@@ -59,8 +59,8 @@
                 <a class="nav-link" href="#">Projetos</a>
               </li>
               <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Faça seu orçamento</a>
+              <li class="nav-item d-flex justify-content-lg-center">
+                <a class="btn-orcamento" href="#">Faça seu orçamento</a>
               </li>
             </ul>
           </div>
@@ -207,19 +207,30 @@
                 <h1>Conheça alguns de nossos projetos</h1>
               </div>
 
-              <div class="col-12 d-flex gap-4 mb-4 justify-content-center">
-                <img src="https://placehold.co/200x200" alt="" />
-                <img src="https://placehold.co/200x200" alt="" />
-                <img src="https://placehold.co/200x200" alt="" />
+              <div
+                class="col-12 d-none d-lg-flex gap-4 mb-4 justify-content-center"
+              >
+                <img src="https://placehold.co/300x300" alt="" />
+                <img src="https://placehold.co/300x300" alt="" />
+                <img src="https://placehold.co/300x300" alt="" />
                 <img src="./assets/img/square-orange.svg" />
               </div>
 
-              <div class="col-12 d-flex gap-4 justify-content-center">
-                <img src="./assets/img/square-orange-2.svg" class="ms-5" />
-                <img src="https://placehold.co/200x200" alt="" />
-                <img src="https://placehold.co/200x200" alt="" />
-                <img src="https://placehold.co/200x200" alt="" />
+              <div class="col-12 d-none d-lg-flex gap-4 justify-content-center">
+                <img src="./assets/img/square-orange-2.svg" />
+                <img src="https://placehold.co/300x300" alt="" />
+                <img src="https://placehold.co/300x300" alt="" />
+                <img src="https://placehold.co/300x300" alt="" />
               </div>
+            </div>
+
+            <div class="slider2 d-lg-none">
+              <img src="https://placehold.co/300x300" alt="" />
+              <img src="https://placehold.co/300x300" alt="" />
+              <img src="https://placehold.co/300x300" alt="" />
+              <img src="https://placehold.co/300x300" alt="" />
+              <img src="https://placehold.co/300x300" alt="" />
+              <img src="https://placehold.co/300x300" alt="" />
             </div>
           </section>
 
@@ -472,7 +483,9 @@
               </div>
             </div>
           </div>
-          <a href="#">Fale conosco</a>
+          <a class="btn-orcamento d-block w-50 mx-auto text-center fs-3" href="#"
+            >Fale conosco</a
+          >
         </section>
       </div>
     </main>
@@ -527,6 +540,34 @@
             {
               breakpoint: 480,
               settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+              },
+            },
+          ],
+        });
+
+        $(".slider2").slick({
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipeToSlide: true,
+          responsive: [
+            {
+              breakpoint: 600,
+              settings: {
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                autoplay: true,
+                autoplaySpeed: 2000,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 arrows: false,

@@ -25,6 +25,34 @@ h1 {
   width: fit-content;
 }
 
+.btn-orcamento {
+  color: #fff;
+  background-color: #ed8c34;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.navbar {
+  @media screen and (max-width: 991px) {
+    padding: 20px 0 !important;
+  }
+}
+
+.navbar-brand {
+  @media screen and (max-width: 991px) {
+    img {
+      max-width: 150px;
+    }
+  }
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
 .navbar {
   background: linear-gradient(90deg, #223d70, #00183e);
   .nav-link {
@@ -208,8 +236,8 @@ h1 {
   }
 
   img {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
   }
 
   @media screen and (max-width: 600px) {
@@ -219,6 +247,15 @@ h1 {
       display: block;
       max-width: 100%;
       margin: 0 auto 20px;
+    }
+  }
+}
+
+#separator-white,
+#separator-orange {
+  @media screen and (max-width: 959px) {
+    img {
+      width: 100%;
     }
   }
 }
