@@ -20,6 +20,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -30,6 +31,8 @@
       type="text/css"
       href="./assets/plugins/slick/slick-theme.css"
     />
+
+    <script src="./assets/js/main.js" type="text/javascript"></script>
   </head>
   <body>
     <header>
@@ -54,12 +57,16 @@
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav mb-2 mb-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#">Sobre</a></li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projetos</a>
+                <a class="nav-link" href="#about">Sobre</a>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
-              <li class="nav-item d-flex justify-content-lg-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+              </li>
+              <li class="nav-item d-flex justify-content-lg-center ms-lg-4">
                 <a class="btn-orcamento" href="#">Faça seu orçamento</a>
               </li>
             </ul>
@@ -84,27 +91,25 @@
           </div>
         </div>
         <div class="icon">
-          <i class="bi bi-chevron-down"></i>
+          <a href="#about"><i class="bi bi-chevron-down"></i></a>
         </div>
       </section>
 
       <section id="about">
-        <div class="container">
+        <div class="container reveal">
           <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-xl-5 mb-5 mb-xl-0">
               <h1>Prazer, nós somos o futuro</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
                 provident dolorum voluptatem aliquam tenetur doloribus ullam non
-                ad architecto atque consequuntur natus dolor eius sint tempore
-                enim, ratione impedit deleniti, optio quia aspernatur deserunt
-                illo saepe! Distinctio recusandae accusantium aliquam
-                asperiores! Voluptates numquam, officiis quidem rerum
-                voluptatibus blanditiis et ipsam.
+                ad architecto atque consequuntur natus dolor eius sint tempore.
               </p>
-              <a href="#" class="btn-cta">Faça o seu orçamento</a>
+              <a href="#" class="btn-cta mx-auto mx-xl-0"
+                >Faça o seu orçamento</a
+              >
             </div>
-            <div class="col-12 col-lg-6 d-flex align-items-end">
+            <div class="col-12 col-xl-7 d-flex align-items-center">
               <img
                 src="./assets/img/img_sobre.png"
                 alt="Foto do Arthur Soares, um homem branco, com óculos redondos, barba curta, camisa social branca com a logo da empresa ao seu lado."
@@ -115,9 +120,9 @@
       </section>
 
       <section id="about-energy">
-        <div class="container">
+        <div class="container reveal">
           <div class="row">
-            <div class="col-12 col-lg-4 d-flex flex-column gap-2 text-center">
+            <div class="col-12 col-xl-4 d-flex flex-column gap-2 text-center">
               <img src="./assets/img/thunder.jpg" />
               <h2>Gere energia limpa</h2>
               <p>
@@ -127,7 +132,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-lg-4 d-flex flex-column gap-2 text-center">
+            <div class="col-12 col-xl-4 d-flex flex-column gap-2 text-center">
               <img src="./assets/img/check.jpg" />
               <h2>Garantia</h2>
               <p>
@@ -137,7 +142,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-lg-4 d-flex flex-column gap-2 text-center">
+            <div class="col-12 col-xl-4 d-flex flex-column gap-2 text-center">
               <img src="./assets/img/medal.jpg" />
               <h2>Eficiencia e Confiança</h2>
               <p>
@@ -151,10 +156,10 @@
       </section>
 
       <section id="working-area">
-        <div class="container">
+        <div class="container reveal">
           <div class="row">
-            <div class="col-12 col-lg-6">
-              <h1>Quais áreas atuamos?</h1>
+            <div class="col-12 col-xl-6">
+              <h1 class="text-center text-xl-start">Quais áreas atuamos?</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
                 accusantium assumenda modi sint quam, temporibus laudantium,
@@ -166,7 +171,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-xl-6">
               <img src="./assets/img/img_area_atuacao.png" />
             </div>
           </div>
@@ -174,9 +179,9 @@
       </section>
 
       <section id="step-adquire-energy">
-        <div class="container">
+        <div class="container reveal">
           <div class="row">
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-xl-6">
               <h1>Etapas para adquirir seu sistema de <b>Energia Solar</b>:</h1>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -192,7 +197,7 @@
               </p>
             </div>
 
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-xl-6">
               <img src="./assets/img/timeline.svg" alt="" />
             </div>
           </div>
@@ -201,30 +206,36 @@
 
       <div id="know-us">
         <div class="container">
-          <section id="projects">
+          <section id="projects" class="reveal">
             <div class="row">
               <div class="col-12 text-center">
                 <h1>Conheça alguns de nossos projetos</h1>
               </div>
 
               <div
-                class="col-12 d-none d-lg-flex gap-4 mb-4 justify-content-center"
+                class="col-12 d-none d-xl-flex gap-4 mb-4 justify-content-center"
               >
                 <img src="https://placehold.co/300x300" alt="" />
                 <img src="https://placehold.co/300x300" alt="" />
                 <img src="https://placehold.co/300x300" alt="" />
-                <img src="./assets/img/square-orange.svg" id="orange-square-1"/>
+                <img
+                  src="./assets/img/square-orange.svg"
+                  id="orange-square-1"
+                />
               </div>
 
-              <div class="col-12 d-none d-lg-flex gap-4 justify-content-center">
-                <img src="./assets/img/square-orange-2.svg" id="orange-square-2" />
+              <div class="col-12 d-none d-xl-flex gap-4 justify-content-center">
+                <img
+                  src="./assets/img/square-orange-2.svg"
+                  id="orange-square-2"
+                />
                 <img src="https://placehold.co/300x300" alt="" />
                 <img src="https://placehold.co/300x300" alt="" />
                 <img src="https://placehold.co/300x300" alt="" />
               </div>
             </div>
 
-            <div class="slider2 d-lg-none">
+            <div class="slider2 d-xl-none">
               <img src="https://placehold.co/300x300" alt="" />
               <img src="https://placehold.co/300x300" alt="" />
               <img src="https://placehold.co/300x300" alt="" />
@@ -234,11 +245,14 @@
             </div>
           </section>
 
-          <section id="separator-white" class="d-flex justify-content-center">
+          <section
+            id="separator-white"
+            class="d-flex justify-content-center reveal"
+          >
             <img src="./assets/img/separator.svg" />
           </section>
 
-          <section id="statements">
+          <section id="statements" class="reveal">
             <div class="row">
               <div class="col-12 mb-5">
                 <h1>Quem confia em nós?</h1>
@@ -320,7 +334,7 @@
       </div>
 
       <div id="get-to-know-more">
-        <section id="common-doubts">
+        <section id="common-doubts" class="reveal">
           <div class="container">
             <div class="row">
               <div class="col-12">
@@ -471,11 +485,14 @@
           </div>
         </section>
 
-        <section id="separator-orange" class="d-flex justify-content-center">
+        <section
+          id="separator-orange"
+          class="d-flex justify-content-center reveal"
+        >
           <img src="./assets/img/separator-orange.svg" />
         </section>
 
-        <section id="budget">
+        <section id="contact" class="reveal">
           <div class="container">
             <div class="row">
               <div class="col-12">
@@ -483,7 +500,9 @@
               </div>
             </div>
           </div>
-          <a class="btn-orcamento d-block w-50 mx-auto text-center fs-3" href="#"
+          <a
+            class="btn-orcamento d-block w-50 mx-auto text-center fs-3"
+            href="#"
             >Fale conosco</a
           >
         </section>
@@ -522,7 +541,7 @@
           swipeToSlide: true,
           responsive: [
             {
-              breakpoint: 1024,
+              breakpoint: 1200,
               settings: {
                 slidesToShow: 3,
                 slidesToScroll: 3,
@@ -531,14 +550,14 @@
               },
             },
             {
-              breakpoint: 600,
+              breakpoint: 992,
               settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2,
               },
             },
             {
-              breakpoint: 480,
+              breakpoint: 768,
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
@@ -555,7 +574,16 @@
           swipeToSlide: true,
           responsive: [
             {
-              breakpoint: 600,
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 992,
               settings: {
                 autoplay: true,
                 autoplaySpeed: 2000,
@@ -564,7 +592,7 @@
               },
             },
             {
-              breakpoint: 480,
+              breakpoint: 768,
               settings: {
                 autoplay: true,
                 autoplaySpeed: 2000,
